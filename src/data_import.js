@@ -1,10 +1,8 @@
-// BASIC OPERATIONS
-
-// read in a .csv
+// read in the CSV containing our housing data
 const csv = require('csv-parser');
 const fs = require('fs');
 
-fs.createReadStream('cozycottage_data.csv')
+fs.createReadStream('../data/cozycottage_data.csv')
   .pipe(csv())
   .on('data', (row) => {
     console.log(row);
