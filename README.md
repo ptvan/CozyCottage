@@ -1,1 +1,1 @@
-React.JS app and data exploring our house search
+An interactive map exploring our house search
